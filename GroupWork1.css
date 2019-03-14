@@ -1,0 +1,150 @@
+#inner1{
+    border-spacing: 0px;
+    background-color: beige;
+}
+#inner1 tr td{
+    border: 2px solid green;
+}
+#inner2{
+    border-spacing: 0px;
+    border: 1px solid blue;
+}
+#inner2 tr td{
+    width: 100px;
+    height: 100px;
+}
+#outer{
+    border: 1px solid red;
+    border-spacing: 0px;
+}
+#topRow{
+    text-align: center;
+    color: white;
+    background-color: darkblue;
+    width: 600px;
+    height: 100px;
+}
+#topRowRes{
+    margin-top: 0px;
+}
+#middleLeft{
+    padding: 0px;
+    border: 1px solid red;
+}
+#middleRight{
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    padding: 0px;
+}
+#title{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.rightSqr{
+    border: 2px solid blue;
+    width: 100px;
+    height: 100px;
+}
+#tl{
+    vertical-align: bottom;
+    background-color: aliceblue;
+}
+#tm{
+    text-align: center;
+    vertical-align: bottom;
+    background-color: white;
+}
+#tr{
+    background-image: url("http://makoswater.com/wp-content/uploads/2016/08/bg-bubbles-grey3-copy.jpg");
+    text-align: right;
+    vertical-align: bottom;
+}
+#ml{
+    text-align: center;
+    background-color: deepskyblue;
+}
+#mm{
+    background-image: url("http://makoswater.com/wp-content/uploads/2016/08/bg-bubbles-grey3-copy.jpg");
+    text-align: center;
+}
+#mr{
+    text-align: center;
+    background-color: deepskyblue;
+}
+#bl{
+    background-image: url("http://makoswater.com/wp-content/uploads/2016/08/bg-bubbles-grey3-copy.jpg");
+    text-align: right;
+    vertical-align: top;
+}
+#bm{
+    text-align: center;
+    vertical-align: top;
+    background-color: white;
+}
+#br{
+    text-align: left;
+    vertical-align: top;
+    background-color: aliceblue;
+}
+#tr1{
+    width: 125px;
+    height: 150px;
+    padding: 0px;
+}
+#bl1{
+    width: 125px;
+    height: 150px;
+}
+#br1{
+    width: 125px;
+    height: 150px;
+}
+#red{
+    background-color: rgba(255,0,0,0.49);
+    width: 50px;
+    height: 300px;
+}
+.redText{
+    color: red;
+}
+.greenText{
+    color: green;
+}
+.blueText{
+    color: blue;
+}
+ol{
+    counter-reset: item;
+}
+ol li{
+    display: block;
+}
+ol li:before{
+    content: counter(item) ". ";
+    counter-increment: item;
+    color: black;
+}
+#light{
+    color: black;
+}
+#dark{
+    color: black;
+}
+#light:before{
+    content: "i. ";
+}
+#dark:before{
+    content: "ii. "
+}
+#colorList{
+    padding-left: 19px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin: 0px;
+}
+#trRes{
+    margin-left: 0px;
+    margin-bottom: 0px;
+}

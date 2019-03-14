@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- Exercise11.html
+     A solution to Exercise 6.1 
+     -->
+<html lang = "en">
+<head>
+  <title> Variation of Exercise 6.1 </title>
+  <style type = "text/css">
+
+/* A style for the paragraph of text */
+   .regtext {position: absolute; top: 100px; left: 100px;
+             font-family: Times; font-size: 14pt; width: 330px;}
+
+/* A style for the image */
+/*
+   .img {background-image: url(resources/clouds.jpg); position: absolute; width:50px; height: 50px; left: 150px;
+      top: 150px;}
+      */
+     #img1{
+        background-image: url(resources/clouds.jpg);
+        position: absolute;
+        width:50px;
+        height: 50px;
+        left: 150px;
+        top: 150px;
+        visibility: hidden;
+     }
+     #img2{
+        background-image: url(resources/clouds.jpg);
+        position: absolute;
+        width:50px;
+        height: 50px;
+        left: 300px;
+        top: 150px;
+        visibility: hidden;
+     }
+     #img3{
+        background-image: url(resources/clouds.jpg);
+        position: absolute;
+        width:50px;
+        height: 50px;
+        left: 300px;
+        top: 300px;
+        visibility: hidden;
+     }
+     #img4{
+        background-image: url(resources/clouds.jpg);
+        position: absolute;
+        width:50px;
+        height: 50px;
+        left: 150px;
+        top: 300px;
+        visibility: hidden;
+     }
+  </style> 
+  <meta charset = "utf-8" />
+</head>
+<body>
+<h1>Background Image Position Control Buttons</h1>
+<label><input id="checkbox1" type="checkbox" name="direction" value="northwest" onclick="updatePos(1)" >Northwest</label><br/><br/>
+<label><input id="checkbox2" type="checkbox" name="direction" value="Northeast" onclick="updatePos(2)" >Norhteast</label><br/><br/>
+<label><input id="checkbox3" type="checkbox" name="direction" value="Southeast" onclick="updatePos(3)" >Southeast</label><br/><br/>
+<label><input id="checkbox4" type="checkbox" name="direction" value="Southwest" onclick="updatePos(4)">Southwest</label><br/><br/>
+
+   <p class = "img" id="img1">
+      <br/><br/><br/><br/><br/>
+   </p>
+   <p class = "img" id="img2">
+      <br/><br/><br/><br/><br/>
+   </p>
+   <p class = "img" id="img3">
+      <br/><br/><br/><br/><br/>
+   </p>
+   <p class = "img" id="img4">
+      <br/><br/><br/><br/><br/>
+   </p>
+
+   <p class = "regtext">
+      I was born on July 4th, 
+      1976, in Huckabee, Alaska.
+      I have three brothers and
+      a sister, all older than I.
+      My sister, Mary, is 26 years old.
+      She lives in Kalkan, Montana.
+      My oldest brother, Ron, is 32
+      years old. He lives in Huckabee.
+      My youngest brother, Max, is 
+      28 years old. He lives in Pinkee,
+      Wyoming. My middle brother, Fred,
+      is 30 years old. He lives in
+      Kinkyhollow, Nebraska.
+      My parents, who are both still 
+      living, still live in Huckabee.
+
+   </p>
+   <script src="ClassExerc6.js" ></script>
+</body>
+</html>
