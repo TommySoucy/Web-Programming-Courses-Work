@@ -4,22 +4,100 @@
     <meta charset="UTF-8">
     <title>SOEN 287 Work</title>
     <link rel="stylesheet" type="text/css" href="https://tommysoucy.github.io/style/VIP.css" />
+    <link rel="icon" type="image/x-icon" href="https://tommysoucy.github.io/images/favicon.ico">
+    <script src="https://tommysoucy.github.io/js/functLib.js"></script>
+    <script src="https://tommysoucy.github.io/js/three.min.js"></script>
+    <script src="https://tommysoucy.github.io/js/GLTFLoader.js"></script>
+    <script src="https://tommysoucy.github.io/js/model-element.min.js"></script>
 </head>
 <body>
-    <h1>SOEN 287</h1>
-    <ul>
-        <li><a class="link" href="ClassExerc1.html">Class exercise 1</a></li>
-        <li><a class="link" href="ClassExerc2.html">Class exercise 2</a></li>
-        <li><a class="link" href="ClassExerc3.html">Class exercise 3</a></li>
-        <li><a class="link" href="GroupWork1.html">Group work 1</a></li>
-        <li><a class="link" href="ClassExerc4.html">Class exercise 4</a></li>
-        <li><a class="link" href="ClassExerc5.html">Class exercise 5</a></li>
-        <li><a class="link" href="ClassExerc6.html">Class exercise 6</a></li>
-        <li><a class="link" href="ClassExerc7.html">Class exercise 7</a></li>
-        <li><a class="link" href="ClassExerc8.html">Class exercise 8</a></li>
-        <li><a class="link" href="ClassExerc9.html">Class exercise 9</a></li>
-        <li><a class="link" href="ClassExerc10.html">Class exercise 10</a></li>
-        <li><a class="link" href="A4_40085762.zip">Assignment 4</a></li>
-    </ul>
+<header>
+    <div id="topBar"></div>
+    <div id="logoBG"></div>
+    <div id="logoBGBorder"></div>
+    <x-model id="logo" src="https://www.tommysoucy.vip/models/VIPLogo.glb"></x-model>
+    <div id="socialsBGBorder"></div>
+    <div id="socialsBG"></div>
+    <div id="socials">
+        <a class="socialLink" id="inLink" href="https://www.linkedin.com/in/tommy-soucy-770440176/" target="_blank">
+            <img class="socialIcon" src="https://tommysoucy.github.io/images/linkedin.svg" alt="LinkedIn link"/>
+        </a>
+        <a class="socialLink" id="gitLink" href="https://github.com/TommySoucy" target="_blank">
+            <img class="socialIcon" src="https://tommysoucy.github.io/images/github.svg" alt="Github link"/>
+        </a>
+        <a class="socialLink" id="fbLink" href="https://www.facebook.com/tommy.soucy" target="_blank">
+            <img class="socialIcon" src="https://tommysoucy.github.io/images/facebook.svg" alt="Facebook link"/>
+        </a>
+    </div>
+    <nav>
+        <div id="dropDownBGBorder"></div>
+        <div id="dropDownBG"></div>
+        <div class="dropdown">
+            <a id="VIPDropDown" class="emText" href="https://tommysoucy.vip">Main site</a>
+            <div id="navWelcome" class="secDropdown dropdownContent">
+                <a class="secEmText" href="https://tommysoucy.vip/#welcomeBanner">Welcome</a>
+            </div>
+            <div id="navProjects" class="secDropdown dropdownContent">
+                <a class="secEmText" href="https://tommysoucy.vip/#projectsSection">Projects</a>
+                <div id="navProjectsCurrent" class="secDropdownContent">
+                    <a class="secEmText" href="https://tommysoucy.vip/#current">Current</a>
+                </div>
+                <div id="navProjectsPast" class="secDropdownContent">
+                    <a class="secEmText" href="https://tommysoucy.vip/#past">Past</a>
+                </div>
+            </div>
+            <div id="navC3D" class="secDropdown dropdownContent">
+                <a class="secEmText" href="https://www.tommysoucy.vip/Concordian-3D-Printing/">C3D</a>
+                <div id="navC3DInfo" class="secDropdownContent">
+                    <a class="secEmText" href="https://www.tommysoucy.vip/Concordian-3D-Printing/Info.html">Info</a>
+                </div>
+                <div id="navC3DPrices" class="secDropdownContent">
+                    <a class="secEmText" href="https://www.tommysoucy.vip/Concordian-3D-Printing/Prices.html">Prices</a>
+                </div>
+                <div id="navC3DOrder" class="secDropdownContent">
+                    <a class="secEmText" href="https://www.tommysoucy.vip/Concordian-3D-Printing/Order.html">Order</a>
+                </div>
+            </div>
+            <div id="navWork" class="secDropdown dropdownContent">
+                <a class="secEmText" href="https://www.tommysoucy.vip/Web-Programming-Courses-Work/">My work</a>
+                <div id="navWorkPersonal" class="secDropdownContent">
+                    <a class="secEmText" href="https://www.tommysoucy.vip/Web-Programming-Courses-Work/#personalSection">Personal Work</a>
+                </div>
+                <div id="navWorkSchool" class="secDropdownContent">
+                    <a class="secEmText" href="https://www.tommysoucy.vip/Web-Programming-Courses-Work/#schoolSection">School Work</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="workList">
+    <h1 class="sectionSubTitle" >~ SOEN 287 ~</h1><br/><br/>
+    <a class="emTextLink" href="ClassExerc1.html">Class exercise 1</a><br/><br/>
+    <a class="emTextLink" href="ClassExerc2.html">Class exercise 2</a><br/><br/>
+    <a class="emTextLink" href="ClassExerc3.html">Class exercise 3</a><br/><br/>
+    <a class="emTextLink" href="GroupWork1.html">Group work 1</a><br/><br/>
+    <a class="emTextLink" href="ClassExerc4.html">Class exercise 4</a><br/><br/>
+    <a class="emTextLink" href="ClassExerc5.html">Class exercise 5</a><br/><br/>
+    <a class="emTextLink" href="ClassExerc6.html">Class exercise 6</a><br/><br/>
+    <a class="emTextLink" href="ClassExerc7.html">Class exercise 7</a><br/><br/>
+    <a class="emTextLink" href="ClassExerc8.html">Class exercise 8</a><br/><br/>
+    <a class="emTextLink" href="ClassExerc9.html">Class exercise 9</a><br/><br/>
+    <a class="emTextLink" href="ClassExerc10.html">Class exercise 10</a><br/><br/>
+    <a class="emTextLink" href="A4_40085762.zip">Assignment 4</a><br/>
+</div>
+<footer>
+    <div id="footerLeft">
+        <a class="link" id="contactLink" href="https://www.tommysoucy.vip/Contact.html">Contact</a>
+        <br/>
+        <br/>
+        <a class="link" id="creditsLink" href="https://www.tommysoucy.vip/Credits.html">Credits</a>
+    </div>
+    <div id="footerCenter">
+        <a class="link" id="mainSiteLink" href="https://tommysoucy.vip">Main site</a>
+    </div>
+    <div id="footerRight">
+        <small>Copyright &copy; 2019 Tommy Soucy. All rights reserved.</small>
+    </div>
+</footer>
 </body>
 </html>
